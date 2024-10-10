@@ -803,7 +803,7 @@ section.Padres .frase{
 /* Eventos */
 
 section.ceremonia-fiesta {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   position: relative;
   background-color: var(--color-fondo-secciones);
 }
@@ -841,9 +841,9 @@ section.ceremonia-fiesta .divisor-inferior-eventos path.curva-1 {
 }
 
 /* Curva 2 divisor */
-/* section.ceremonia-fiesta .divisor-inferior-eventos path.curva-2{
+section.ceremonia-fiesta .divisor-inferior-eventos path.curva-2{
   fill: var(--color-degradez-1);
-} */
+} 
 
 /* Curva 2 divisor (Gradiets)*/
 section.ceremonia-fiesta .divisor-inferior-eventos .g1 {
@@ -1392,8 +1392,8 @@ section.itinerario {
 section.itinerario .container {
   position: relative;
   z-index: 999;
-  padding-top: 160px;
-  padding-bottom: 240px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 section.itinerario .divisor-superior-itinerario {
