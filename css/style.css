@@ -129,6 +129,11 @@
   /* Fuentes */
   --fuente-1: 'Vidaloka', serif;
   --fuente-2: 'Open Sans', sans-serif;
+  --fuente-3: 'Cinzel', serif;
+  --fuente-4: 'Roboto', sans-serif;
+  --fuente-5: 'Great Vibes', serif;
+  --fuente-6: 'Edu AU VIC WA NT Guides', serif;
+  --fuente-7: 'Bodoni Moda', serif;
 
   /* Grosor fuentes */
   --grosor-fuente-light: 300;
@@ -912,11 +917,15 @@ section.ceremonia-fiesta .anim-fiesta {
   margin: 0 auto 20px;
 }
 
+section.ceremonia-fiesta .col-ceremonia .anim-anillos{
+  padding-top: 350px;
+}
+
 section.ceremonia-fiesta .col-ceremonia .anim-anillos,
 section.ceremonia-fiesta .anim-fiesta {
   width: 175px;
   height: 175px;
-  margin: 0 auto 20px;
+  margin: 0px auto 20px;
   padding: 20px;
   background-color: var(--color-fondo-anim-eventos);
   border-radius: 50%;
@@ -1419,6 +1428,8 @@ section.itinerario .divisor-inferior-itinerario .color-continuidad {
 
 section.itinerario .title{
   color: var(--color-titulo-itinerario);
+  font-family: var(--fuente-5);
+  font-size: 55px;
 }
 
 section.itinerario .subtitle{
@@ -1428,15 +1439,15 @@ section.itinerario .subtitle{
 section.itinerario .horario{
   color: var(--color-link-itinerario);
   font-size: 20px;
-  font-family: var(--fuente-1);
-  font-weight: var(--grosor-fuente-light);
+  font-family: var(--fuente-7);
+  font-weight: var(--grosor-fuente-regular);
   display: inline-block;
 }
 
 section.itinerario .detalle{
   color: var(--color-link-itinerario);
-  font-size: 30px;
-  font-family: var(--fuente-2);
+  font-size: 25px;
+  font-family: var(--fuente-4);
   font-weight: var(--grosor-fuente-light);
   margin-top: -10px;
   display: inline-block;
@@ -1457,7 +1468,7 @@ section.itinerario:before {
   content: '';
   height: 100%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 
